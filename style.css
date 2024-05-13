@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    line-height: normal;
+    }
+
+.header-icon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15%;
+}
+
+.btn-aboutus{
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    text-align: center; 
+    color: #1F1F1F; 
+    font-size: 25px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.btn-store{
+    position: absolute;
+    top: 8%;
+    left: 24%;
+    text-align: center; 
+    color: #1F1F1F; 
+    font-size: 25px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.btn-delivery{
+    position: absolute;
+    top: 8%;
+    left: 36%;
+    text-align: center; 
+    color: #1F1F1F; 
+    font-size: 25px; 
+    font-family: Montserrat; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+.btn-support{
+    position: absolute;
+    top: 8%;
+    right: 36%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #fab60c;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-contacts{
+    position: absolute;
+    top: 8%;
+    right: 24%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #fab60c;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-bucket{
+    position: absolute;
+    top: 8%;
+    right: 8%;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Montserrat;
+    color: #fab60c;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.txt1{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.filter1{
+    display: flex;
+    flex-flow: column;
+}
+
+.filtr{
+    position: absolute;
+    top: 21%;
+    left: 150px;
+    background: #f8f7ed;
+    width: 10%;
+    border-radius: 20px;
+}
+
+
+.search{
+    width: 70%;
+    position: relative;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid #ff7a00;
+    box-sizing: border-box;
+    height: 45px;
+    left: 20%;
+    text-align: center;
+    font-size: 30px;
+}
+.catalog{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.container{
+    float: left;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    height: 290px;
+    width: 190px;
+}
+
+.photo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    top: 0px;
+}
+
+.price{
+    position: absolute;
+    top: 70%;
+}
+
+.nazva{
+    position: absolute;
+    top: 40%;
+}
+
+.purchasebtn{
+    position: absolute;
+    background: #F9B50B;
+    border-radius: 40px;
+    color: black;
+    font-size: 20px;
+    font-family: Poppins;
+    bottom: 0px;
+    display: flex;
+}
+
+.filterDiv {
+    position: relative;
+    color: #000000;
+    text-align: center;
+    display: none;
+    margin-top: 2%;
+    margin-left: 3%;
+    height: 300px;
+    width: 200px;
+    top: 20%;
+    left: 0%;
+}
+  
+.show {
+    display: block;
+}
+.btn:hover {
+    background-color: #F9B50B;
+}
+.btn.active {
+    background-color: #EDEFF8;
+    border: 5px, solid #EDEFF8
+}
+
